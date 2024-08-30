@@ -14,7 +14,8 @@ class StudentService {
   }
 
   // Update an existing student
-  void updateStudent(String id, {String? name, int? age, Map<String, double>? subjects}) {
+  void updateStudent(String id,
+      {String? name, int? age, Map<String, double>? subjects}) {
     final student = _students[id];
     if (student == null) {
       print('Student with ID $id not found.');
