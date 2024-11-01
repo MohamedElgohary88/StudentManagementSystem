@@ -16,6 +16,7 @@ class ReportCardService {
     print('-----------------------------');
   }
 
+  
   // Calculate the average grade for a student
   double calculateAverageGrade(Student student) {
     return student.calculateAverageGrade();
