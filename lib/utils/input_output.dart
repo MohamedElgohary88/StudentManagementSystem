@@ -26,6 +26,7 @@ class InputOutput {
       subjects[subject] = grade;
     }
 
+    
     return {
       'id': id,
       'name': name,
